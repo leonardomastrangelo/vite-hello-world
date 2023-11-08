@@ -18,7 +18,7 @@ export default {
 <style lang="css" scoped>
 /* hero section */
 #hero {
-    height: 600px;
+    height: 80vh;
     background-image: url(/images/hero.jpg);
     background-size: cover;
     background-position: center;
@@ -29,7 +29,7 @@ export default {
 
 /* hero title */
 h2 {
-    font-size: 4em;
+    font-size: 6em;
     color: rgb(255, 255, 255);
 }
 </style>

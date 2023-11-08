@@ -12,6 +12,3 @@
   --engineering-orange: #bf0603ff;
   --dark-red: #8d0801ff;
 }
-header {
-  background-color: var(--jasmine);
-}
