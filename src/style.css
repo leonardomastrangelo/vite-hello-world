@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  /* CSS HEX */
+  --oxford-blue: #001427ff;
+  --hookers-green: #708d81ff;
+  --jasmine: #f4d58dff;
+  --engineering-orange: #bf0603ff;
+  --dark-red: #8d0801ff;
+}
+header {
+  background-color: var(--jasmine);
+}
