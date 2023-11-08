@@ -3,17 +3,21 @@
   <header>
     <!-- title -->
     <AppTitle />
+    <!-- jumbo -->
+    <AppHero />
   </header>
 </template>
 
 <script>
 import AppTitle from "./components/AppTitle.vue";
+import AppHero from "./components/AppHero.vue"
 export default {
   // name root app
   name: "App",
   // components that uses
   components: {
-    AppTitle
+    AppTitle,
+    AppHero
   },
   // classic vue
   data() {

@@ -1,10 +1,15 @@
 <template>
-    <h1>la mia prima app con Vite!</h1>
+    <h1>{{ title }}</h1>
 </template>
 
 <script>
 export default {
-    name: "AppTitle"
+    name: "AppTitle",
+    data() {
+        return {
+            title: "la mia prima app con Vite!"
+        }
+    }
 }
 </script>
 
